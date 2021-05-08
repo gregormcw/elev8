@@ -48,9 +48,13 @@ void SpatializerAudioProcessorEditor::paint (juce::Graphics& g)
     getLookAndFeel().setColour(juce::Slider::thumbColourId, juce::Colours::darkorange);
     
     g.setFont(juce::Font("Avenir Next", 0, 0));
-    g.setColour (juce::Colours::white);
     g.setFont (68.0f);
-    g.drawFittedText("ELEV8", 0, 25, getWidth(), 30, juce::Justification::centredTop, 1);
+    g.setColour (juce::Colours::orange);
+    g.drawFittedText("8", 58, 25, getWidth(), 30, juce::Justification::centredTop, 1);
+    g.setColour (juce::Colours::white);
+    g.drawFittedText("ELEV", -14, 25, getWidth(), 30, juce::Justification::centredTop, 1);
+    //    g.drawFittedText("ELEV8", 0, 25, getWidth(), 30, juce::Justification::centredTop, 1);
+    g.setColour (juce::Colours::white);
     
     g.setFont(22.0f);
     g.drawFittedText("Azimuth", 2*getWidth()/3-30, getHeight()-80, 160, 20, juce::Justification::centredLeft, 1);
