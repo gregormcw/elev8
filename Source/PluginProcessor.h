@@ -1,8 +1,6 @@
 /*
   ==============================================================================
-
     This file contains the basic framework code for a JUCE plugin processor.
-
   ==============================================================================
 */
 
@@ -13,12 +11,12 @@
 //==============================================================================
 /**
 */
-class SpatializerAudioProcessor  : public juce::AudioProcessor
+class ELEV8AudioProcessor  : public juce::AudioProcessor
 {
 public:
     //==============================================================================
-    SpatializerAudioProcessor();
-    ~SpatializerAudioProcessor() override;
+    ELEV8AudioProcessor();
+    ~ELEV8AudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -71,6 +69,7 @@ public:
     
     juce::File folder;
     juce::String hrir;
+//    std::string hrir;
     
     void updateHRIR();
     int HRTF_LEN = 128;
@@ -79,6 +78,12 @@ private:
     
     std::atomic<bool> shouldLoadImpulseResponse;
     juce::File fileToLoad;
+//    std::string fileToLoad;
+    const char *audioData;
+    const char *hrirToLoad;
+    
+    int dataSize = 574;
+    
     
     int elevAngles[14] = {0, 10, -10, 20, -20, 30, -30, 40, -40, 50, 60, 70, 80, 90};
 
@@ -109,5 +114,5 @@ private:
     int aziAngles90[2] = {0, -0};
     
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SpatializerAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ELEV8AudioProcessor)
 };

@@ -1,8 +1,6 @@
 /*
   ==============================================================================
-
     This file contains the basic framework code for a JUCE plugin editor.
-
   ==============================================================================
 */
 
@@ -13,7 +11,7 @@
 #define WIN_HEIGHT      400
 
 //==============================================================================
-SpatializerAudioProcessorEditor::SpatializerAudioProcessorEditor (SpatializerAudioProcessor& p)
+ELEV8AudioProcessorEditor::ELEV8AudioProcessorEditor (ELEV8AudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
     
@@ -36,12 +34,12 @@ SpatializerAudioProcessorEditor::SpatializerAudioProcessorEditor (SpatializerAud
     setSize (WIN_WIDTH, WIN_HEIGHT);
 }
 
-SpatializerAudioProcessorEditor::~SpatializerAudioProcessorEditor()
+ELEV8AudioProcessorEditor::~ELEV8AudioProcessorEditor()
 {
 }
 
 //==============================================================================
-void SpatializerAudioProcessorEditor::paint (juce::Graphics& g)
+void ELEV8AudioProcessorEditor::paint (juce::Graphics& g)
 {
     
     g.fillAll(juce::Colours::lightslategrey);
@@ -65,7 +63,7 @@ void SpatializerAudioProcessorEditor::paint (juce::Graphics& g)
     
 }
 
-void SpatializerAudioProcessorEditor::resized()
+void ELEV8AudioProcessorEditor::resized()
 {
 
     int aziSliderWidth = 220;
@@ -82,7 +80,7 @@ void SpatializerAudioProcessorEditor::resized()
     
 }
 
-void SpatializerAudioProcessorEditor::sliderValueChanged (juce::Slider *slider)
+void ELEV8AudioProcessorEditor::sliderValueChanged (juce::Slider *slider)
 {
     if (slider == &aziSlider) {
         audioProcessor.azimuth = aziSlider.getValue();

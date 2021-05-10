@@ -1,8 +1,6 @@
 /*
   ==============================================================================
-
     This file contains the basic framework code for a JUCE plugin editor.
-
   ==============================================================================
 */
 
@@ -14,12 +12,12 @@
 //==============================================================================
 /**
 */
-class SpatializerAudioProcessorEditor  : public juce::AudioProcessorEditor,
+class ELEV8AudioProcessorEditor  : public juce::AudioProcessorEditor,
                                          public juce::Slider::Listener
 {
 public:
-    SpatializerAudioProcessorEditor (SpatializerAudioProcessor&);
-    ~SpatializerAudioProcessorEditor() override;
+    ELEV8AudioProcessorEditor (ELEV8AudioProcessor&);
+    ~ELEV8AudioProcessorEditor() override;
 
     //==============================================================================
     void paint (juce::Graphics&) override;
@@ -39,7 +37,7 @@ private:
     
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    SpatializerAudioProcessor& audioProcessor;
+    ELEV8AudioProcessor& audioProcessor;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SpatializerAudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ELEV8AudioProcessorEditor)
 };

@@ -1,8 +1,6 @@
 /*
   ==============================================================================
-
     This file contains the basic framework code for a JUCE plugin processor.
-
   ==============================================================================
 */
 
@@ -10,12 +8,12 @@
 #include "PluginEditor.h"
 
 //==============================================================================
-SpatializerAudioProcessor::SpatializerAudioProcessor()
+ELEV8AudioProcessor::ELEV8AudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
      : AudioProcessor (BusesProperties()
                      #if ! JucePlugin_IsMidiEffect
                       #if ! JucePlugin_IsSynth
-                       .withInput  ("Input",  juce::AudioChannelSet::stereo(), true)
+                       .withInput  ("Input",  juce::AudioChannelSet::mono(), true)
                       #endif
                        .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
                      #endif
@@ -24,17 +22,17 @@ SpatializerAudioProcessor::SpatializerAudioProcessor()
 {
 }
 
-SpatializerAudioProcessor::~SpatializerAudioProcessor()
+ELEV8AudioProcessor::~ELEV8AudioProcessor()
 {
 }
 
 //==============================================================================
-const juce::String SpatializerAudioProcessor::getName() const
+const juce::String ELEV8AudioProcessor::getName() const
 {
     return JucePlugin_Name;
 }
 
-bool SpatializerAudioProcessor::acceptsMidi() const
+bool ELEV8AudioProcessor::acceptsMidi() const
 {
    #if JucePlugin_WantsMidiInput
     return true;
@@ -43,7 +41,7 @@ bool SpatializerAudioProcessor::acceptsMidi() const
    #endif
 }
 
-bool SpatializerAudioProcessor::producesMidi() const
+bool ELEV8AudioProcessor::producesMidi() const
 {
    #if JucePlugin_ProducesMidiOutput
     return true;
@@ -52,7 +50,7 @@ bool SpatializerAudioProcessor::producesMidi() const
    #endif
 }
 
-bool SpatializerAudioProcessor::isMidiEffect() const
+bool ELEV8AudioProcessor::isMidiEffect() const
 {
    #if JucePlugin_IsMidiEffect
     return true;
@@ -61,38 +59,38 @@ bool SpatializerAudioProcessor::isMidiEffect() const
    #endif
 }
 
-double SpatializerAudioProcessor::getTailLengthSeconds() const
+double ELEV8AudioProcessor::getTailLengthSeconds() const
 {
     return 0.0;
 }
 
-int SpatializerAudioProcessor::getNumPrograms()
+int ELEV8AudioProcessor::getNumPrograms()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
                 // so this should be at least 1, even if you're not really implementing programs.
 }
 
-int SpatializerAudioProcessor::getCurrentProgram()
+int ELEV8AudioProcessor::getCurrentProgram()
 {
     return 0;
 }
 
-void SpatializerAudioProcessor::setCurrentProgram (int index)
+void ELEV8AudioProcessor::setCurrentProgram (int index)
 {
 }
 
-const juce::String SpatializerAudioProcessor::getProgramName (int index)
+const juce::String ELEV8AudioProcessor::getProgramName (int index)
 {
     return {};
 }
 
-void SpatializerAudioProcessor::changeProgramName (int index, const juce::String& newName)
+void ELEV8AudioProcessor::changeProgramName (int index, const juce::String& newName)
 {
 }
 
 
 //==============================================================================
-void SpatializerAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
+void ELEV8AudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
     
     // Declare DSP process specifications
@@ -106,19 +104,18 @@ void SpatializerAudioProcessor::prepareToPlay (double sampleRate, int samplesPer
     // Prepare specifications
     conv.prepare(spec);
     
-//    updateParameters();
     reset();
     
 }
 
-void SpatializerAudioProcessor::releaseResources()
+void ELEV8AudioProcessor::releaseResources()
 {
     // When playback stops, you can use this as an opportunity to free up any
     // spare memory, etc.
 }
 
 #ifndef JucePlugin_PreferredChannelConfigurations
-bool SpatializerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
+bool ELEV8AudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
 {
   #if JucePlugin_IsMidiEffect
     juce::ignoreUnused (layouts);
@@ -142,7 +139,7 @@ bool SpatializerAudioProcessor::isBusesLayoutSupported (const BusesLayout& layou
 }
 #endif
 
-void SpatializerAudioProcessor::updateParameters()
+void ELEV8AudioProcessor::updateParameters()
 {
     
     int curElevAngle = 0;
@@ -258,33 +255,46 @@ void SpatializerAudioProcessor::updateParameters()
     else {
         aziAngleStr = std::to_string(curAziAngle);
     }
-
-    // Define name of required HRIR file
-    hrir = "/Users/gregormcwilliam/Documents/NYU/Classes/DST/hw7_finalProject/spatializer/Source/compact/elev"
-        + std::to_string(curElevAngle) + "/H" + std::to_string(curElevAngle) + "e" + aziAngleStr + "a.wav";
     
-    // Point to the required HRIR file
-    fileToLoad = folder.getChildFile(hrir);
+    
+    hrir = "H" + std::to_string(curElevAngle) + "e" + aziAngleStr + "a.wav";
+    
+    // Iterate through all files in binary data header
+    for (int i = 0; i < BinaryData::namedResourceListSize; i++) {
+        
+        // Retrieve binary name of each file
+        auto binaryName = BinaryData::namedResourceList[i];
+        
+        // Convert binary name to type juce::String name
+        juce::String fileName = BinaryData::getNamedResourceOriginalFilename(binaryName);
+        
+        // If file name matches hrir above, correct file has been found
+        if (fileName == hrir) {
+            audioData = BinaryData::getNamedResource(binaryName, dataSize);
+            break;
+        }
+    }
     
     // Check the file exists
-    jassert(fileToLoad.exists());
+    jassert(audioData != nullptr);
     
     // Set flag to true, allowing the impulse response to be loaded
     shouldLoadImpulseResponse = true;
     
 }
 
-void SpatializerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
+void ELEV8AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     
     // If required, load impulse response into convolution object
     if (shouldLoadImpulseResponse) {
-        conv.loadImpulseResponse(fileToLoad, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
+//        conv.loadImpulseResponse(fileToLoad, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
+        conv.loadImpulseResponse(audioData, 574, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
         shouldLoadImpulseResponse = false;
+        
     }
     
     // Declare variables
-//    juce::dsp::AudioBlock<float> channelBlock;
     juce::ScopedNoDenormals noDenormals;
     
     buffer.applyGain(10.0);
@@ -311,25 +321,25 @@ void SpatializerAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
 }
 
 //==============================================================================
-bool SpatializerAudioProcessor::hasEditor() const
+bool ELEV8AudioProcessor::hasEditor() const
 {
     return true; // (change this to false if you choose to not supply an editor)
 }
 
-juce::AudioProcessorEditor* SpatializerAudioProcessor::createEditor()
+juce::AudioProcessorEditor* ELEV8AudioProcessor::createEditor()
 {
-    return new SpatializerAudioProcessorEditor (*this);
+    return new ELEV8AudioProcessorEditor (*this);
 }
 
 //==============================================================================
-void SpatializerAudioProcessor::getStateInformation (juce::MemoryBlock& destData)
+void ELEV8AudioProcessor::getStateInformation (juce::MemoryBlock& destData)
 {
     // You should use this method to store your parameters in the memory block.
     // You could do that either as raw data, or use the XML or ValueTree classes
     // as intermediaries to make it easy to save and load complex data.
 }
 
-void SpatializerAudioProcessor::setStateInformation (const void* data, int sizeInBytes)
+void ELEV8AudioProcessor::setStateInformation (const void* data, int sizeInBytes)
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
@@ -339,5 +349,5 @@ void SpatializerAudioProcessor::setStateInformation (const void* data, int sizeI
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
-    return new SpatializerAudioProcessor();
+    return new ELEV8AudioProcessor();
 }
