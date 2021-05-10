@@ -58,7 +58,7 @@ void ELEV8AudioProcessorEditor::paint (juce::Graphics& g)
     g.drawFittedText("Azimuth", 2*getWidth()/3-30, getHeight()-80, 160, 20, juce::Justification::centredLeft, 1);
     g.drawFittedText("Elevation", getWidth()/3-110-15, getHeight()-80, 160, 20, juce::Justification::centredRight, 1);
     g.setFont(8.0f);
-    g.drawFittedText("Designed and built by G. McWilliam", WIN_WIDTH-380, WIN_HEIGHT-20,
+    g.drawFittedText("Designed and built by G. McWilliam", WIN_WIDTH-385, WIN_HEIGHT-20,
                      380, 20, juce::Justification::right, 1);
     
 }

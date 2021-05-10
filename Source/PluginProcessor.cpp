@@ -289,7 +289,7 @@ void ELEV8AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::
     // If required, load impulse response into convolution object
     if (shouldLoadImpulseResponse) {
 //        conv.loadImpulseResponse(fileToLoad, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
-        conv.loadImpulseResponse(audioData, 574, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
+        conv.loadImpulseResponse(audioData, 556, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::no, 0);
         shouldLoadImpulseResponse = false;
         
     }
