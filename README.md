@@ -14,7 +14,7 @@ A binaural spatializer audio plugin built with C++ and the JUCE framework. ELEV8
 
 ## Overview
 
-Binaural audio simulates how humans perceive the direction and elevation of sound sources using the shape of the outer ear, head, and torso. HRTFs encode these acoustic filtering properties for a dense grid of spatial positions. ELEV8 loads the appropriate impulse response for a given azimuth and elevation, then applies it to the input in real time using frequency-domain convolution.
+Binaural audio simulates how humans perceive the direction and elevation of sound sources using the shape of the outer ear, head, and torso. HRTFs encode these acoustic filtering properties for a dense grid of spatial positions. ELEV8 loads the appropriate impulse response for a given azimuth and elevation, then applies it to the input in real time using frequency-domain convolution. This is the same core technique behind Apple Spatial Audio, Meta's VR audio pipeline, and binaural streaming formats — implemented here from first principles as a native audio plugin.
 
 **Formats:** VST3, AU, Standalone
 **Channel layout:** Mono in → Stereo out
@@ -139,12 +139,12 @@ elev8/
 
 ---
 
-## Known Limitations
+## Limitations & Roadmap
 
-- **No HRTF interpolation** — parameters snap to the nearest measured position rather than blending between adjacent HRTFs. This can produce audible artifacts when sweeping angles quickly.
-- **Hardcoded gain** — output gain is fixed at 10× and cannot be adjusted from the UI.
-- **No preset saving** — `getStateInformation` / `setStateInformation` are not yet implemented, so DAW automation and preset recall are unsupported.
-- **macOS only** — no Windows or Linux builds are currently provided.
+- **No HRTF interpolation** — parameters snap to the nearest measured position rather than blending between adjacent HRTFs, which can produce audible artifacts when sweeping angles quickly. Planned fix: linear interpolation between the four nearest HRTF measurements.
+- **Hardcoded gain** — output gain is fixed at 10× and cannot be adjusted from the UI. Planned fix: expose a gain parameter via `AudioProcessorValueTreeState`.
+- **No preset saving** — `getStateInformation` / `setStateInformation` are not yet implemented, so DAW automation and preset recall are unsupported. Planned fix: serialize parameters using JUCE's `ValueTree`.
+- **macOS only** — no Windows or Linux builds are currently provided. Planned fix: CMake-based cross-platform build replacing the Projucer/Xcode workflow.
 
 ---
 
