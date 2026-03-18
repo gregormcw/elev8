@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="g1gCNI" name="ELEV8" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="McW" companyCopyright="Gregor McWilliam 2021" companyWebsite="https://gregormcw.com"
+              companyEmail="g@gregormcw.com">
+  <MAINGROUP id="OzZRYz" name="ELEV8">
+    <GROUP id="{06C29A5F-542C-A3CC-2A46-19C3EE1B9A21}" name="Source">
+      <FILE id="lRHlZu" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Q9g1mc" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="p9hWcA" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="gdvtSX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="T7Xam2" name="BinaryData.cpp" compile="0" resource="1" file="Source/BinaryData.cpp"/>
+    <FILE id="lzmKNf" name="BinaryData.h" compile="0" resource="1" file="Source/BinaryData.h"/>
+    <GROUP id="{3570E5A2-E7AB-7A0A-3448-D8181BD91F48}" name="compact">
+      <GROUP id="{6681C2DC-87D6-98B7-7DA7-0043D44B8729}" name="elev-10">
+        <FILE id="jXoMnn" name="H-10e-000a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-000a.wav"/>
+        <FILE id="pl4YuB" name="H-10e-005a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-005a.wav"/>
+        <FILE id="tSnNtO" name="H-10e-010a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-010a.wav"/>
+        <FILE id="pHnWPQ" name="H-10e-015a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-015a.wav"/>
+        <FILE id="eHWFim" name="H-10e-020a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-020a.wav"/>
+        <FILE id="yhQfWj" name="H-10e-025a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-025a.wav"/>
+        <FILE id="ubKiLI" name="H-10e-030a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-030a.wav"/>
+        <FILE id="ITNCyh" name="H-10e-035a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-035a.wav"/>
+        <FILE id="PLVNnK" name="H-10e-040a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-040a.wav"/>
+        <FILE id="kwOyVQ" name="H-10e-045a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-045a.wav"/>
+        <FILE id="pIDM8R" name="H-10e-050a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-050a.wav"/>
+        <FILE id="rYEsNo" name="H-10e-055a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-055a.wav"/>
+        <FILE id="BoZBFv" name="H-10e-060a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-060a.wav"/>
+        <FILE id="z8RTrI" name="H-10e-065a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-065a.wav"/>
+        <FILE id="imhB1S" name="H-10e-070a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-070a.wav"/>
+        <FILE id="oj3nZi" name="H-10e-075a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-075a.wav"/>
+        <FILE id="R36DJX" name="H-10e-080a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-080a.wav"/>
+        <FILE id="cM8GcT" name="H-10e-085a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-085a.wav"/>
+        <FILE id="ZYrbwk" name="H-10e-090a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-090a.wav"/>
+        <FILE id="bOX3Oh" name="H-10e-095a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-095a.wav"/>
+        <FILE id="Nsm0Cd" name="H-10e-100a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-100a.wav"/>
+        <FILE id="XuaAFP" name="H-10e-105a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-105a.wav"/>
+        <FILE id="dzoIMi" name="H-10e-110a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-110a.wav"/>
+        <FILE id="tzXKu7" name="H-10e-115a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-115a.wav"/>
+        <FILE id="v4JYds" name="H-10e-120a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-120a.wav"/>
+        <FILE id="BLSBic" name="H-10e-125a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-125a.wav"/>
+        <FILE id="hUlFJL" name="H-10e-130a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-130a.wav"/>
+        <FILE id="RZlb2P" name="H-10e-135a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-135a.wav"/>
+        <FILE id="i1Lome" name="H-10e-140a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-140a.wav"/>
+        <FILE id="udTIk5" name="H-10e-145a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-145a.wav"/>
+        <FILE id="NmszEG" name="H-10e-150a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-150a.wav"/>
+        <FILE id="uPygIw" name="H-10e-155a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-155a.wav"/>
+        <FILE id="PQxoiZ" name="H-10e-160a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-160a.wav"/>
+        <FILE id="CvBOaI" name="H-10e-165a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-165a.wav"/>
+        <FILE id="hAVcAE" name="H-10e-170a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-170a.wav"/>
+        <FILE id="UKuREK" name="H-10e-175a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-175a.wav"/>
+        <FILE id="FXJHWd" name="H-10e-180a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e-180a.wav"/>
+        <FILE id="WaHbxI" name="H-10e000a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e000a.wav"/>
+        <FILE id="Z7gWF1" name="H-10e005a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e005a.wav"/>
+        <FILE id="DBkRHm" name="H-10e010a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e010a.wav"/>
+        <FILE id="YVx5Al" name="H-10e015a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e015a.wav"/>
+        <FILE id="yrHFAZ" name="H-10e020a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e020a.wav"/>
+        <FILE id="PTpGpe" name="H-10e025a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e025a.wav"/>
+        <FILE id="MLMWlG" name="H-10e030a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e030a.wav"/>
+        <FILE id="Zks9FI" name="H-10e035a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e035a.wav"/>
+        <FILE id="t9JNzT" name="H-10e040a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e040a.wav"/>
+        <FILE id="XDTNZW" name="H-10e045a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e045a.wav"/>
+        <FILE id="RYVDi6" name="H-10e050a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e050a.wav"/>
+        <FILE id="EzVEfX" name="H-10e055a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e055a.wav"/>
+        <FILE id="CvgCmR" name="H-10e060a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e060a.wav"/>
+        <FILE id="WHGnLk" name="H-10e065a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e065a.wav"/>
+        <FILE id="cR5kBQ" name="H-10e070a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e070a.wav"/>
+        <FILE id="eluiKD" name="H-10e075a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e075a.wav"/>
+        <FILE id="Hy4Pyt" name="H-10e080a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e080a.wav"/>
+        <FILE id="iDmnsA" name="H-10e085a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e085a.wav"/>
+        <FILE id="yfa55O" name="H-10e090a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e090a.wav"/>
+        <FILE id="pkwPCB" name="H-10e095a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e095a.wav"/>
+        <FILE id="AG2i2p" name="H-10e100a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e100a.wav"/>
+        <FILE id="m8xmkj" name="H-10e105a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e105a.wav"/>
+        <FILE id="UuAv4Q" name="H-10e110a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e110a.wav"/>
+        <FILE id="b6VB4m" name="H-10e115a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e115a.wav"/>
+        <FILE id="OxXnBd" name="H-10e120a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e120a.wav"/>
+        <FILE id="l0oXXo" name="H-10e125a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e125a.wav"/>
+        <FILE id="Nk8Nyu" name="H-10e130a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e130a.wav"/>
+        <FILE id="vXzErg" name="H-10e135a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e135a.wav"/>
+        <FILE id="GFQ3ge" name="H-10e140a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e140a.wav"/>
+        <FILE id="LkNvxE" name="H-10e145a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e145a.wav"/>
+        <FILE id="dCIf6Z" name="H-10e150a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e150a.wav"/>
+        <FILE id="f3QofQ" name="H-10e155a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e155a.wav"/>
+        <FILE id="Y8lkw7" name="H-10e160a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e160a.wav"/>
+        <FILE id="hhzAcM" name="H-10e165a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e165a.wav"/>
+        <FILE id="AFp4Dr" name="H-10e170a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e170a.wav"/>
+        <FILE id="U8Y0YC" name="H-10e175a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e175a.wav"/>
+        <FILE id="CeZdDs" name="H-10e180a.wav" compile="0" resource="1" file="Source/compact/elev-10/H-10e180a.wav"/>
+      </GROUP>
+      <GROUP id="{1D113217-1837-F3F2-F8C2-F52280031F2A}" name="elev-20">
+        <FILE id="QA4VYM" name="H-20e-000a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-000a.wav"/>
+        <FILE id="iDDHe1" name="H-20e-005a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-005a.wav"/>
+        <FILE id="TKUMQL" name="H-20e-010a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-010a.wav"/>
+        <FILE id="pt5aqf" name="H-20e-015a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-015a.wav"/>
+        <FILE id="DQSiS1" name="H-20e-020a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-020a.wav"/>
+        <FILE id="rL6gVN" name="H-20e-025a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-025a.wav"/>
+        <FILE id="ogOBJY" name="H-20e-030a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-030a.wav"/>
+        <FILE id="NSc8y4" name="H-20e-035a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-035a.wav"/>
+        <FILE id="qy4yNv" name="H-20e-040a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-040a.wav"/>
+        <FILE id="r83lU7" name="H-20e-045a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-045a.wav"/>
+        <FILE id="cwhQo3" name="H-20e-050a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-050a.wav"/>
+        <FILE id="SZ6hWz" name="H-20e-055a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-055a.wav"/>
+        <FILE id="Bfbn8Z" name="H-20e-060a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-060a.wav"/>
+        <FILE id="O0WXxE" name="H-20e-065a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-065a.wav"/>
+        <FILE id="vJ5P5w" name="H-20e-070a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-070a.wav"/>
+        <FILE id="p1TRYW" name="H-20e-075a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-075a.wav"/>
+        <FILE id="HpUKoW" name="H-20e-080a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-080a.wav"/>
+        <FILE id="Z9gwX8" name="H-20e-085a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-085a.wav"/>
+        <FILE id="gOFw5C" name="H-20e-090a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-090a.wav"/>
+        <FILE id="tSeKzm" name="H-20e-095a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-095a.wav"/>
+        <FILE id="cbmTMF" name="H-20e-100a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-100a.wav"/>
+        <FILE id="fZuhlt" name="H-20e-105a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-105a.wav"/>
+        <FILE id="LSGEKZ" name="H-20e-110a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-110a.wav"/>
+        <FILE id="wt2pKm" name="H-20e-115a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-115a.wav"/>
+        <FILE id="bQlcOb" name="H-20e-120a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-120a.wav"/>
+        <FILE id="nxrEE4" name="H-20e-125a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-125a.wav"/>
+        <FILE id="FA3VhB" name="H-20e-130a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-130a.wav"/>
+        <FILE id="cLsNTu" name="H-20e-135a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-135a.wav"/>
+        <FILE id="p15apW" name="H-20e-140a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-140a.wav"/>
+        <FILE id="uZkzzQ" name="H-20e-145a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-145a.wav"/>
+        <FILE id="kHTJNi" name="H-20e-150a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-150a.wav"/>
+        <FILE id="c3DMaS" name="H-20e-155a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-155a.wav"/>
+        <FILE id="i8ilpY" name="H-20e-160a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-160a.wav"/>
+        <FILE id="jyvbNE" name="H-20e-165a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-165a.wav"/>
+        <FILE id="zCscRQ" name="H-20e-170a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-170a.wav"/>
+        <FILE id="vyCcBv" name="H-20e-175a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-175a.wav"/>
+        <FILE id="LJmqNM" name="H-20e-180a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e-180a.wav"/>
+        <FILE id="R5hLtN" name="H-20e000a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e000a.wav"/>
+        <FILE id="PdL8zg" name="H-20e005a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e005a.wav"/>
+        <FILE id="bs5GPw" name="H-20e010a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e010a.wav"/>
+        <FILE id="QebVXm" name="H-20e015a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e015a.wav"/>
+        <FILE id="L5AsHq" name="H-20e020a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e020a.wav"/>
+        <FILE id="tRrI0l" name="H-20e025a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e025a.wav"/>
+        <FILE id="sc2ERq" name="H-20e030a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e030a.wav"/>
+        <FILE id="ALZG0r" name="H-20e035a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e035a.wav"/>
+        <FILE id="gUQwSS" name="H-20e040a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e040a.wav"/>
+        <FILE id="g0AxG8" name="H-20e045a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e045a.wav"/>
+        <FILE id="F3wxH6" name="H-20e050a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e050a.wav"/>
+        <FILE id="vwcWau" name="H-20e055a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e055a.wav"/>
+        <FILE id="XlDvvS" name="H-20e060a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e060a.wav"/>
+        <FILE id="QSyzpE" name="H-20e065a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e065a.wav"/>
+        <FILE id="PiuK3X" name="H-20e070a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e070a.wav"/>
+        <FILE id="Dz6EPU" name="H-20e075a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e075a.wav"/>
+        <FILE id="OcP1GN" name="H-20e080a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e080a.wav"/>
+        <FILE id="hdFcxS" name="H-20e085a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e085a.wav"/>
+        <FILE id="lbu4xM" name="H-20e090a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e090a.wav"/>
+        <FILE id="QZrhwQ" name="H-20e095a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e095a.wav"/>
+        <FILE id="XeQESR" name="H-20e100a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e100a.wav"/>
+        <FILE id="GicCJ9" name="H-20e105a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e105a.wav"/>
+        <FILE id="yU0zWc" name="H-20e110a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e110a.wav"/>
+        <FILE id="JDwWW4" name="H-20e115a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e115a.wav"/>
+        <FILE id="jVZdDy" name="H-20e120a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e120a.wav"/>
+        <FILE id="p7jJvw" name="H-20e125a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e125a.wav"/>
+        <FILE id="qkmUfG" name="H-20e130a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e130a.wav"/>
+        <FILE id="wbCTUu" name="H-20e135a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e135a.wav"/>
+        <FILE id="bd6i81" name="H-20e140a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e140a.wav"/>
+        <FILE id="p2xCgB" name="H-20e145a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e145a.wav"/>
+        <FILE id="Ej8X7i" name="H-20e150a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e150a.wav"/>
+        <FILE id="eFnhAW" name="H-20e155a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e155a.wav"/>
+        <FILE id="Lk8alg" name="H-20e160a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e160a.wav"/>
+        <FILE id="s6zERK" name="H-20e165a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e165a.wav"/>
+        <FILE id="YshaSh" name="H-20e170a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e170a.wav"/>
+        <FILE id="iqJhuH" name="H-20e175a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e175a.wav"/>
+        <FILE id="OUjwUA" name="H-20e180a.wav" compile="0" resource="1" file="Source/compact/elev-20/H-20e180a.wav"/>
+      </GROUP>
+      <GROUP id="{0AB3954A-685C-EA72-83C9-73AAFA38EE50}" name="elev-30">
+        <FILE id="PiZocu" name="H-30e-000a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-000a.wav"/>
+        <FILE id="vHq4tz" name="H-30e-006a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-006a.wav"/>
+        <FILE id="j0ff9P" name="H-30e-012a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-012a.wav"/>
+        <FILE id="DsA5eN" name="H-30e-018a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-018a.wav"/>
+        <FILE id="PRlz7m" name="H-30e-024a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-024a.wav"/>
+        <FILE id="lxaYw8" name="H-30e-030a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-030a.wav"/>
+        <FILE id="Eqxh3b" name="H-30e-036a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-036a.wav"/>
+        <FILE id="okBGi7" name="H-30e-042a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-042a.wav"/>
+        <FILE id="Wa1Rcs" name="H-30e-048a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-048a.wav"/>
+        <FILE id="vumNIm" name="H-30e-054a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-054a.wav"/>
+        <FILE id="Kqcs9h" name="H-30e-060a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-060a.wav"/>
+        <FILE id="b9USHP" name="H-30e-066a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-066a.wav"/>
+        <FILE id="kIpsrU" name="H-30e-072a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-072a.wav"/>
+        <FILE id="wlXtDN" name="H-30e-078a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-078a.wav"/>
+        <FILE id="ZfMR1V" name="H-30e-084a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-084a.wav"/>
+        <FILE id="jUXGwN" name="H-30e-090a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-090a.wav"/>
+        <FILE id="Qlr17P" name="H-30e-096a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-096a.wav"/>
+        <FILE id="gD7k8v" name="H-30e-102a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-102a.wav"/>
+        <FILE id="Kxy20V" name="H-30e-108a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-108a.wav"/>
+        <FILE id="qW0tpP" name="H-30e-114a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-114a.wav"/>
+        <FILE id="qKLTPT" name="H-30e-120a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-120a.wav"/>
+        <FILE id="erH2eT" name="H-30e-126a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-126a.wav"/>
+        <FILE id="VgXtxd" name="H-30e-132a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-132a.wav"/>
+        <FILE id="CHQ8jj" name="H-30e-138a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-138a.wav"/>
+        <FILE id="getjya" name="H-30e-144a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-144a.wav"/>
+        <FILE id="PBsziC" name="H-30e-150a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-150a.wav"/>
+        <FILE id="uth5zQ" name="H-30e-156a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-156a.wav"/>
+        <FILE id="CspGY7" name="H-30e-162a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-162a.wav"/>
+        <FILE id="FmsBZF" name="H-30e-168a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-168a.wav"/>
+        <FILE id="JWG2hH" name="H-30e-174a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-174a.wav"/>
+        <FILE id="s87FJq" name="H-30e-180a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e-180a.wav"/>
+        <FILE id="ZO0GKE" name="H-30e000a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e000a.wav"/>
+        <FILE id="ogDYmK" name="H-30e006a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e006a.wav"/>
+        <FILE id="UHFoLd" name="H-30e012a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e012a.wav"/>
+        <FILE id="rzV7Np" name="H-30e018a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e018a.wav"/>
+        <FILE id="Ri8M97" name="H-30e024a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e024a.wav"/>
+        <FILE id="vJmPYz" name="H-30e030a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e030a.wav"/>
+        <FILE id="lugQlq" name="H-30e036a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e036a.wav"/>
+        <FILE id="DsdA16" name="H-30e042a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e042a.wav"/>
+        <FILE id="vaZntc" name="H-30e048a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e048a.wav"/>
+        <FILE id="U0sOd9" name="H-30e054a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e054a.wav"/>
+        <FILE id="hdA9sr" name="H-30e060a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e060a.wav"/>
+        <FILE id="vd8o1d" name="H-30e066a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e066a.wav"/>
+        <FILE id="NfI1Qs" name="H-30e072a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e072a.wav"/>
+        <FILE id="CzrKUd" name="H-30e078a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e078a.wav"/>
+        <FILE id="ZU5p1W" name="H-30e084a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e084a.wav"/>
+        <FILE id="gNJg63" name="H-30e090a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e090a.wav"/>
+        <FILE id="xWGLrc" name="H-30e096a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e096a.wav"/>
+        <FILE id="TcfRq5" name="H-30e102a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e102a.wav"/>
+        <FILE id="tjwOAJ" name="H-30e108a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e108a.wav"/>
+        <FILE id="ERpzZm" name="H-30e114a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e114a.wav"/>
+        <FILE id="ChmvJ6" name="H-30e120a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e120a.wav"/>
+        <FILE id="IefWYw" name="H-30e126a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e126a.wav"/>
+        <FILE id="aY4ozm" name="H-30e132a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e132a.wav"/>
+        <FILE id="PZyW9Y" name="H-30e138a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e138a.wav"/>
+        <FILE id="BI8kqR" name="H-30e144a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e144a.wav"/>
+        <FILE id="Oe2KnJ" name="H-30e150a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e150a.wav"/>
+        <FILE id="YpUDWw" name="H-30e156a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e156a.wav"/>
+        <FILE id="vrrdQo" name="H-30e162a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e162a.wav"/>
+        <FILE id="bTq00u" name="H-30e168a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e168a.wav"/>
+        <FILE id="l38aAW" name="H-30e174a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e174a.wav"/>
+        <FILE id="tw5Fx6" name="H-30e180a.wav" compile="0" resource="1" file="Source/compact/elev-30/H-30e180a.wav"/>
+      </GROUP>
+      <GROUP id="{69B5181D-C8B5-0AAD-6377-41BCBB969716}" name="elev-40">
+        <FILE id="eCBA8K" name="H-40e-000a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-000a.wav"/>
+        <FILE id="GiEj15" name="H-40e-006a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-006a.wav"/>
+        <FILE id="pDJDX2" name="H-40e-013a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-013a.wav"/>
+        <FILE id="IdfKhM" name="H-40e-019a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-019a.wav"/>
+        <FILE id="NLIw9A" name="H-40e-026a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-026a.wav"/>
+        <FILE id="WGNVYK" name="H-40e-032a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-032a.wav"/>
+        <FILE id="rNYCHE" name="H-40e-039a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-039a.wav"/>
+        <FILE id="AOAuoJ" name="H-40e-045a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-045a.wav"/>
+        <FILE id="ASVwCS" name="H-40e-051a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-051a.wav"/>
+        <FILE id="CXApVd" name="H-40e-058a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-058a.wav"/>
+        <FILE id="JMhVxp" name="H-40e-064a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-064a.wav"/>
+        <FILE id="nAnqTW" name="H-40e-071a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-071a.wav"/>
+        <FILE id="UhiKGD" name="H-40e-077a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-077a.wav"/>
+        <FILE id="fda93v" name="H-40e-084a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-084a.wav"/>
+        <FILE id="f54INs" name="H-40e-090a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-090a.wav"/>
+        <FILE id="Aijevk" name="H-40e-096a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-096a.wav"/>
+        <FILE id="QKQ25J" name="H-40e-103a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-103a.wav"/>
+        <FILE id="Aikydz" name="H-40e-109a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-109a.wav"/>
+        <FILE id="kr6Kmv" name="H-40e-116a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-116a.wav"/>
+        <FILE id="bi64kD" name="H-40e-122a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-122a.wav"/>
+        <FILE id="ot6wxc" name="H-40e-129a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-129a.wav"/>
+        <FILE id="Y35jdH" name="H-40e-135a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-135a.wav"/>
+        <FILE id="gJO9Ux" name="H-40e-141a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-141a.wav"/>
+        <FILE id="GlTgSD" name="H-40e-148a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-148a.wav"/>
+        <FILE id="mxf5Bz" name="H-40e-154a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-154a.wav"/>
+        <FILE id="kG3bVr" name="H-40e-161a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-161a.wav"/>
+        <FILE id="pBcrt4" name="H-40e-167a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-167a.wav"/>
+        <FILE id="vAOLQM" name="H-40e-174a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-174a.wav"/>
+        <FILE id="i6Vi9z" name="H-40e-180a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e-180a.wav"/>
+        <FILE id="RlA9z8" name="H-40e000a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e000a.wav"/>
+        <FILE id="mkPJJj" name="H-40e006a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e006a.wav"/>
+        <FILE id="SJ8Rrn" name="H-40e013a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e013a.wav"/>
+        <FILE id="NPDZ8l" name="H-40e019a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e019a.wav"/>
+        <FILE id="ScXywt" name="H-40e026a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e026a.wav"/>
+        <FILE id="amYVfi" name="H-40e032a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e032a.wav"/>
+        <FILE id="KvgEY1" name="H-40e039a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e039a.wav"/>
+        <FILE id="tlMd31" name="H-40e045a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e045a.wav"/>
+        <FILE id="jexg92" name="H-40e051a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e051a.wav"/>
+        <FILE id="NlCb0w" name="H-40e058a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e058a.wav"/>
+        <FILE id="WlMy7p" name="H-40e064a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e064a.wav"/>
+        <FILE id="SeE3cV" name="H-40e071a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e071a.wav"/>
+        <FILE id="vcH4rd" name="H-40e077a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e077a.wav"/>
+        <FILE id="PeEknm" name="H-40e084a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e084a.wav"/>
+        <FILE id="JSeKCa" name="H-40e090a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e090a.wav"/>
+        <FILE id="xKZIHf" name="H-40e096a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e096a.wav"/>
+        <FILE id="A2iw8v" name="H-40e103a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e103a.wav"/>
+        <FILE id="lafcTO" name="H-40e109a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e109a.wav"/>
+        <FILE id="vneHRF" name="H-40e116a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e116a.wav"/>
+        <FILE id="C0PVq6" name="H-40e122a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e122a.wav"/>
+        <FILE id="sJbcjO" name="H-40e129a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e129a.wav"/>
+        <FILE id="OgO9MQ" name="H-40e135a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e135a.wav"/>
+        <FILE id="QcRMER" name="H-40e141a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e141a.wav"/>
+        <FILE id="IQNw0B" name="H-40e148a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e148a.wav"/>
+        <FILE id="qVZorQ" name="H-40e154a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e154a.wav"/>
+        <FILE id="KQFiiS" name="H-40e161a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e161a.wav"/>
+        <FILE id="YmvLga" name="H-40e167a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e167a.wav"/>
+        <FILE id="rfOMr1" name="H-40e174a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e174a.wav"/>
+        <FILE id="LEO0qm" name="H-40e180a.wav" compile="0" resource="1" file="Source/compact/elev-40/H-40e180a.wav"/>
+      </GROUP>
+      <GROUP id="{90318A35-2A82-1D45-40C0-89D0F89AB818}" name="elev0">
+        <FILE id="cevESi" name="H0e-000a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-000a.wav"/>
+        <FILE id="ERgwA9" name="H0e-005a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-005a.wav"/>
+        <FILE id="oBF3hN" name="H0e-010a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-010a.wav"/>
+        <FILE id="wiheTS" name="H0e-015a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-015a.wav"/>
+        <FILE id="bdiXrw" name="H0e-020a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-020a.wav"/>
+        <FILE id="x21LYe" name="H0e-025a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-025a.wav"/>
+        <FILE id="aFS9qP" name="H0e-030a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-030a.wav"/>
+        <FILE id="Dn1zcK" name="H0e-035a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-035a.wav"/>
+        <FILE id="LwXh0s" name="H0e-040a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-040a.wav"/>
+        <FILE id="AqzOxm" name="H0e-045a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-045a.wav"/>
+        <FILE id="tWv84D" name="H0e-050a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-050a.wav"/>
+        <FILE id="tZ4RSe" name="H0e-055a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-055a.wav"/>
+        <FILE id="hc1NMt" name="H0e-060a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-060a.wav"/>
+        <FILE id="VJN1aZ" name="H0e-065a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-065a.wav"/>
+        <FILE id="uiUI3g" name="H0e-070a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-070a.wav"/>
+        <FILE id="Dl5OQZ" name="H0e-075a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-075a.wav"/>
+        <FILE id="N4VQwX" name="H0e-080a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-080a.wav"/>
+        <FILE id="wS1GQC" name="H0e-085a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-085a.wav"/>
+        <FILE id="SYph8a" name="H0e-090a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-090a.wav"/>
+        <FILE id="J3vBta" name="H0e-095a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-095a.wav"/>
+        <FILE id="omSvtQ" name="H0e-100a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-100a.wav"/>
+        <FILE id="O7mvZh" name="H0e-105a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-105a.wav"/>
+        <FILE id="DwtNSR" name="H0e-110a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-110a.wav"/>
+        <FILE id="JYtwZ2" name="H0e-115a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-115a.wav"/>
+        <FILE id="CbqX0R" name="H0e-120a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-120a.wav"/>
+        <FILE id="DmZrJz" name="H0e-125a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-125a.wav"/>
+        <FILE id="hoSyhH" name="H0e-130a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-130a.wav"/>
+        <FILE id="e1vzuP" name="H0e-135a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-135a.wav"/>
+        <FILE id="OuDZ1S" name="H0e-140a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-140a.wav"/>
+        <FILE id="mJOBUX" name="H0e-145a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-145a.wav"/>
+        <FILE id="whcPX0" name="H0e-150a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-150a.wav"/>
+        <FILE id="r2gm3A" name="H0e-155a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-155a.wav"/>
+        <FILE id="yic6tQ" name="H0e-160a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-160a.wav"/>
+        <FILE id="JNKgHp" name="H0e-165a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-165a.wav"/>
+        <FILE id="D8LaoC" name="H0e-170a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-170a.wav"/>
+        <FILE id="O4Q4Gk" name="H0e-175a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-175a.wav"/>
+        <FILE id="r5CKCl" name="H0e-180a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e-180a.wav"/>
+        <FILE id="krRan6" name="H0e000a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e000a.wav"/>
+        <FILE id="PRrODr" name="H0e005a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e005a.wav"/>
+        <FILE id="Q2ToCg" name="H0e010a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e010a.wav"/>
+        <FILE id="eVpi8S" name="H0e015a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e015a.wav"/>
+        <FILE id="aoVYPD" name="H0e020a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e020a.wav"/>
+        <FILE id="N4F8Yb" name="H0e025a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e025a.wav"/>
+        <FILE id="wBnjsR" name="H0e030a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e030a.wav"/>
+        <FILE id="wvHSNr" name="H0e035a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e035a.wav"/>
+        <FILE id="G6gbzl" name="H0e040a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e040a.wav"/>
+        <FILE id="Ldlrj0" name="H0e045a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e045a.wav"/>
+        <FILE id="VgEBEj" name="H0e050a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e050a.wav"/>
+        <FILE id="tw7MBH" name="H0e055a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e055a.wav"/>
+        <FILE id="Je2BJB" name="H0e060a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e060a.wav"/>
+        <FILE id="uRqqkb" name="H0e065a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e065a.wav"/>
+        <FILE id="ikxlT3" name="H0e070a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e070a.wav"/>
+        <FILE id="NUYTup" name="H0e075a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e075a.wav"/>
+        <FILE id="gEgztI" name="H0e080a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e080a.wav"/>
+        <FILE id="gZzLZo" name="H0e085a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e085a.wav"/>
+        <FILE id="aunGzh" name="H0e090a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e090a.wav"/>
+        <FILE id="PVDD5c" name="H0e095a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e095a.wav"/>
+        <FILE id="RpW1pA" name="H0e100a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e100a.wav"/>
+        <FILE id="Fy3z64" name="H0e105a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e105a.wav"/>
+        <FILE id="eszdaM" name="H0e110a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e110a.wav"/>
+        <FILE id="mFoItD" name="H0e115a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e115a.wav"/>
+        <FILE id="DKfgd2" name="H0e120a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e120a.wav"/>
+        <FILE id="th8E8z" name="H0e125a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e125a.wav"/>
+        <FILE id="aWR1VS" name="H0e130a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e130a.wav"/>
+        <FILE id="oT4EwX" name="H0e135a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e135a.wav"/>
+        <FILE id="E4LWvl" name="H0e140a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e140a.wav"/>
+        <FILE id="kXlbmh" name="H0e145a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e145a.wav"/>
+        <FILE id="xA7TUK" name="H0e150a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e150a.wav"/>
+        <FILE id="aczUS2" name="H0e155a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e155a.wav"/>
+        <FILE id="Vi83bc" name="H0e160a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e160a.wav"/>
+        <FILE id="c2NDue" name="H0e165a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e165a.wav"/>
+        <FILE id="GVwgUx" name="H0e170a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e170a.wav"/>
+        <FILE id="x8jNQW" name="H0e175a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e175a.wav"/>
+        <FILE id="nwThWh" name="H0e180a.wav" compile="0" resource="1" file="Source/compact/elev0/H0e180a.wav"/>
+      </GROUP>
+      <GROUP id="{F2F74B4F-F0D8-F44E-6993-E35BEB750E5C}" name="elev10">
+        <FILE id="MZJXQz" name="H10e-000a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-000a.wav"/>
+        <FILE id="WEx22d" name="H10e-005a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-005a.wav"/>
+        <FILE id="HZDXzw" name="H10e-010a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-010a.wav"/>
+        <FILE id="e02QEa" name="H10e-015a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-015a.wav"/>
+        <FILE id="pG9qCG" name="H10e-020a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-020a.wav"/>
+        <FILE id="J9g4OU" name="H10e-025a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-025a.wav"/>
+        <FILE id="CqhoEm" name="H10e-030a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-030a.wav"/>
+        <FILE id="kqBa3e" name="H10e-035a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-035a.wav"/>
+        <FILE id="TQpDkI" name="H10e-040a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-040a.wav"/>
+        <FILE id="KDU5Co" name="H10e-045a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-045a.wav"/>
+        <FILE id="GRDmxV" name="H10e-050a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-050a.wav"/>
+        <FILE id="eWvdKU" name="H10e-055a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-055a.wav"/>
+        <FILE id="WqGLNu" name="H10e-060a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-060a.wav"/>
+        <FILE id="jT9lFE" name="H10e-065a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-065a.wav"/>
+        <FILE id="QFohv0" name="H10e-070a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-070a.wav"/>
+        <FILE id="EhpqnR" name="H10e-075a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-075a.wav"/>
+        <FILE id="YSd3ch" name="H10e-080a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-080a.wav"/>
+        <FILE id="GxeStT" name="H10e-085a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-085a.wav"/>
+        <FILE id="wWhWvl" name="H10e-090a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-090a.wav"/>
+        <FILE id="eZCqgc" name="H10e-095a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-095a.wav"/>
+        <FILE id="YCcD70" name="H10e-100a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-100a.wav"/>
+        <FILE id="IMDXsV" name="H10e-105a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-105a.wav"/>
+        <FILE id="hCMEWX" name="H10e-110a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-110a.wav"/>
+        <FILE id="i0V09O" name="H10e-115a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-115a.wav"/>
+        <FILE id="RkGSO0" name="H10e-120a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-120a.wav"/>
+        <FILE id="UzMvJL" name="H10e-125a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-125a.wav"/>
+        <FILE id="sLwUGm" name="H10e-130a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-130a.wav"/>
+        <FILE id="vKqUEK" name="H10e-135a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-135a.wav"/>
+        <FILE id="EJhTzj" name="H10e-140a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-140a.wav"/>
+        <FILE id="q4LlAN" name="H10e-145a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-145a.wav"/>
+        <FILE id="EPPT19" name="H10e-150a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-150a.wav"/>
+        <FILE id="mi8i4m" name="H10e-155a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-155a.wav"/>
+        <FILE id="Z1ZA6X" name="H10e-160a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-160a.wav"/>
+        <FILE id="L3nrfi" name="H10e-165a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-165a.wav"/>
+        <FILE id="qBQYpw" name="H10e-170a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-170a.wav"/>
+        <FILE id="GkQs8d" name="H10e-175a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-175a.wav"/>
+        <FILE id="h9b7Jq" name="H10e-180a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e-180a.wav"/>
+        <FILE id="EB9Fai" name="H10e000a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e000a.wav"/>
+        <FILE id="RoVu6h" name="H10e005a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e005a.wav"/>
+        <FILE id="c4AMMw" name="H10e010a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e010a.wav"/>
+        <FILE id="S5tFL8" name="H10e015a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e015a.wav"/>
+        <FILE id="gMcvZS" name="H10e020a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e020a.wav"/>
+        <FILE id="pVaOte" name="H10e025a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e025a.wav"/>
+        <FILE id="LhpBjA" name="H10e030a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e030a.wav"/>
+        <FILE id="OvVrRK" name="H10e035a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e035a.wav"/>
+        <FILE id="s2KtjC" name="H10e040a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e040a.wav"/>
+        <FILE id="krHy2z" name="H10e045a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e045a.wav"/>
+        <FILE id="Jdkeej" name="H10e050a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e050a.wav"/>
+        <FILE id="qLily6" name="H10e055a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e055a.wav"/>
+        <FILE id="G8ronA" name="H10e060a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e060a.wav"/>
+        <FILE id="BUelKt" name="H10e065a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e065a.wav"/>
+        <FILE id="rwhQJt" name="H10e070a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e070a.wav"/>
+        <FILE id="DsrGH4" name="H10e075a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e075a.wav"/>
+        <FILE id="jD1nM2" name="H10e080a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e080a.wav"/>
+        <FILE id="XvgULX" name="H10e085a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e085a.wav"/>
+        <FILE id="DZ4mTC" name="H10e090a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e090a.wav"/>
+        <FILE id="lg1xrs" name="H10e095a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e095a.wav"/>
+        <FILE id="XmjFnY" name="H10e100a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e100a.wav"/>
+        <FILE id="EBwDvn" name="H10e105a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e105a.wav"/>
+        <FILE id="caeIiH" name="H10e110a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e110a.wav"/>
+        <FILE id="flksr2" name="H10e115a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e115a.wav"/>
+        <FILE id="IZ316o" name="H10e120a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e120a.wav"/>
+        <FILE id="vlzoB9" name="H10e125a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e125a.wav"/>
+        <FILE id="geiUF3" name="H10e130a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e130a.wav"/>
+        <FILE id="sWOayb" name="H10e135a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e135a.wav"/>
+        <FILE id="It63GK" name="H10e140a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e140a.wav"/>
+        <FILE id="XnUSp0" name="H10e145a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e145a.wav"/>
+        <FILE id="CAQpba" name="H10e150a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e150a.wav"/>
+        <FILE id="IVzd29" name="H10e155a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e155a.wav"/>
+        <FILE id="KszRdF" name="H10e160a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e160a.wav"/>
+        <FILE id="ODIRHD" name="H10e165a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e165a.wav"/>
+        <FILE id="St83J3" name="H10e170a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e170a.wav"/>
+        <FILE id="eGDZlw" name="H10e175a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e175a.wav"/>
+        <FILE id="Bme8c4" name="H10e180a.wav" compile="0" resource="1" file="Source/compact/elev10/H10e180a.wav"/>
+      </GROUP>
+      <GROUP id="{AB6344F1-E0F3-8C70-4E46-5BD2B7F9F523}" name="elev20">
+        <FILE id="FgsVU3" name="H20e-000a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-000a.wav"/>
+        <FILE id="qi3FDd" name="H20e-005a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-005a.wav"/>
+        <FILE id="Cau0TL" name="H20e-010a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-010a.wav"/>
+        <FILE id="wAmblb" name="H20e-015a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-015a.wav"/>
+        <FILE id="VOPL4r" name="H20e-020a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-020a.wav"/>
+        <FILE id="UKjfYI" name="H20e-025a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-025a.wav"/>
+        <FILE id="Kx3KNL" name="H20e-030a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-030a.wav"/>
+        <FILE id="Qmu4Be" name="H20e-035a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-035a.wav"/>
+        <FILE id="mOdSE9" name="H20e-040a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-040a.wav"/>
+        <FILE id="jEmp3I" name="H20e-045a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-045a.wav"/>
+        <FILE id="N8eyl4" name="H20e-050a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-050a.wav"/>
+        <FILE id="JTfmaY" name="H20e-055a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-055a.wav"/>
+        <FILE id="u9EMFS" name="H20e-060a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-060a.wav"/>
+        <FILE id="UAmlTN" name="H20e-065a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-065a.wav"/>
+        <FILE id="hg6uIO" name="H20e-070a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-070a.wav"/>
+        <FILE id="ut3fmm" name="H20e-075a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-075a.wav"/>
+        <FILE id="Ybjc6K" name="H20e-080a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-080a.wav"/>
+        <FILE id="mPzZCJ" name="H20e-085a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-085a.wav"/>
+        <FILE id="A7Jzlg" name="H20e-090a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-090a.wav"/>
+        <FILE id="qgXUDy" name="H20e-095a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-095a.wav"/>
+        <FILE id="gUqDSw" name="H20e-100a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-100a.wav"/>
+        <FILE id="EUQWLa" name="H20e-105a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-105a.wav"/>
+        <FILE id="HkCO36" name="H20e-110a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-110a.wav"/>
+        <FILE id="Zyay3U" name="H20e-115a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-115a.wav"/>
+        <FILE id="SPaPtd" name="H20e-120a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-120a.wav"/>
+        <FILE id="Lm3Pih" name="H20e-125a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-125a.wav"/>
+        <FILE id="DXO94u" name="H20e-130a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-130a.wav"/>
+        <FILE id="GDXOtM" name="H20e-135a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-135a.wav"/>
+        <FILE id="YoUn1R" name="H20e-140a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-140a.wav"/>
+        <FILE id="IpwGmX" name="H20e-145a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-145a.wav"/>
+        <FILE id="Lqx170" name="H20e-150a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-150a.wav"/>
+        <FILE id="hn3ayH" name="H20e-155a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-155a.wav"/>
+        <FILE id="dRxnZq" name="H20e-160a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-160a.wav"/>
+        <FILE id="vqtZus" name="H20e-165a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-165a.wav"/>
+        <FILE id="GuKFb2" name="H20e-170a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-170a.wav"/>
+        <FILE id="UsEk98" name="H20e-175a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-175a.wav"/>
+        <FILE id="fXYS4E" name="H20e-180a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e-180a.wav"/>
+        <FILE id="zc8oJn" name="H20e000a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e000a.wav"/>
+        <FILE id="E5znnT" name="H20e005a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e005a.wav"/>
+        <FILE id="PbNGZn" name="H20e010a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e010a.wav"/>
+        <FILE id="SNoDQD" name="H20e015a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e015a.wav"/>
+        <FILE id="wuIlO0" name="H20e020a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e020a.wav"/>
+        <FILE id="ahaK0j" name="H20e025a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e025a.wav"/>
+        <FILE id="aVQnpQ" name="H20e030a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e030a.wav"/>
+        <FILE id="Nr3pbZ" name="H20e035a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e035a.wav"/>
+        <FILE id="vvHAx9" name="H20e040a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e040a.wav"/>
+        <FILE id="y9AKIz" name="H20e045a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e045a.wav"/>
+        <FILE id="XsgG65" name="H20e050a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e050a.wav"/>
+        <FILE id="gshLZx" name="H20e055a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e055a.wav"/>
+        <FILE id="urQtbv" name="H20e060a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e060a.wav"/>
+        <FILE id="BuaeZU" name="H20e065a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e065a.wav"/>
+        <FILE id="KYo4V3" name="H20e070a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e070a.wav"/>
+        <FILE id="KmzIss" name="H20e075a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e075a.wav"/>
+        <FILE id="wWWNoV" name="H20e080a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e080a.wav"/>
+        <FILE id="WsuMJI" name="H20e085a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e085a.wav"/>
+        <FILE id="S1X8DN" name="H20e090a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e090a.wav"/>
+        <FILE id="CNzlxE" name="H20e095a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e095a.wav"/>
+        <FILE id="Uaqul8" name="H20e100a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e100a.wav"/>
+        <FILE id="v6eopI" name="H20e105a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e105a.wav"/>
+        <FILE id="E064DF" name="H20e110a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e110a.wav"/>
+        <FILE id="N9twGF" name="H20e115a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e115a.wav"/>
+        <FILE id="kUeaTf" name="H20e120a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e120a.wav"/>
+        <FILE id="hlwMQV" name="H20e125a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e125a.wav"/>
+        <FILE id="El57Zn" name="H20e130a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e130a.wav"/>
+        <FILE id="Cg5XFY" name="H20e135a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e135a.wav"/>
+        <FILE id="yjqHI8" name="H20e140a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e140a.wav"/>
+        <FILE id="RfEj64" name="H20e145a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e145a.wav"/>
+        <FILE id="Uudr2i" name="H20e150a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e150a.wav"/>
+        <FILE id="OkjQmq" name="H20e155a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e155a.wav"/>
+        <FILE id="nn9oPS" name="H20e160a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e160a.wav"/>
+        <FILE id="WoUry1" name="H20e165a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e165a.wav"/>
+        <FILE id="kbdBjP" name="H20e170a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e170a.wav"/>
+        <FILE id="EbZCi6" name="H20e175a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e175a.wav"/>
+        <FILE id="XiO772" name="H20e180a.wav" compile="0" resource="1" file="Source/compact/elev20/H20e180a.wav"/>
+      </GROUP>
+      <GROUP id="{83A0B16B-AEB6-34B6-EE0F-153F10380559}" name="elev30">
+        <FILE id="kGqaVM" name="H30e-000a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-000a.wav"/>
+        <FILE id="JRttTS" name="H30e-006a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-006a.wav"/>
+        <FILE id="CAILYa" name="H30e-012a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-012a.wav"/>
+        <FILE id="tT4aSw" name="H30e-018a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-018a.wav"/>
+        <FILE id="THTePn" name="H30e-024a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-024a.wav"/>
+        <FILE id="hBSScp" name="H30e-030a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-030a.wav"/>
+        <FILE id="e7cmRZ" name="H30e-036a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-036a.wav"/>
+        <FILE id="iCpe8r" name="H30e-042a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-042a.wav"/>
+        <FILE id="fQLDRZ" name="H30e-048a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-048a.wav"/>
+        <FILE id="RKAlKm" name="H30e-054a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-054a.wav"/>
+        <FILE id="xCsi9y" name="H30e-060a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-060a.wav"/>
+        <FILE id="TPgBMJ" name="H30e-066a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-066a.wav"/>
+        <FILE id="IHOSbc" name="H30e-072a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-072a.wav"/>
+        <FILE id="mz0vd7" name="H30e-078a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-078a.wav"/>
+        <FILE id="rUQ5vc" name="H30e-084a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-084a.wav"/>
+        <FILE id="kYAfvE" name="H30e-090a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-090a.wav"/>
+        <FILE id="NtbDp5" name="H30e-096a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-096a.wav"/>
+        <FILE id="B9jm7J" name="H30e-102a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-102a.wav"/>
+        <FILE id="hLkiiR" name="H30e-108a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-108a.wav"/>
+        <FILE id="jBMsLB" name="H30e-114a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-114a.wav"/>
+        <FILE id="a1vll9" name="H30e-120a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-120a.wav"/>
+        <FILE id="Y0pzYv" name="H30e-126a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-126a.wav"/>
+        <FILE id="ObXZ2W" name="H30e-132a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-132a.wav"/>
+        <FILE id="zlhoMa" name="H30e-138a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-138a.wav"/>
+        <FILE id="MrwSxA" name="H30e-144a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-144a.wav"/>
+        <FILE id="TR9niC" name="H30e-150a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-150a.wav"/>
+        <FILE id="a2IIpb" name="H30e-156a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-156a.wav"/>
+        <FILE id="s01kbh" name="H30e-162a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-162a.wav"/>
+        <FILE id="nxViXF" name="H30e-168a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-168a.wav"/>
+        <FILE id="tq5jq6" name="H30e-174a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-174a.wav"/>
+        <FILE id="QyOD4q" name="H30e-180a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e-180a.wav"/>
+        <FILE id="AYVMkC" name="H30e000a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e000a.wav"/>
+        <FILE id="si0Gwy" name="H30e006a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e006a.wav"/>
+        <FILE id="XLILXm" name="H30e012a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e012a.wav"/>
+        <FILE id="iWyIKf" name="H30e018a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e018a.wav"/>
+        <FILE id="nQ3iT6" name="H30e024a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e024a.wav"/>
+        <FILE id="jbiiic" name="H30e030a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e030a.wav"/>
+        <FILE id="nmjCGT" name="H30e036a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e036a.wav"/>
+        <FILE id="geJcVd" name="H30e042a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e042a.wav"/>
+        <FILE id="R6qbZd" name="H30e048a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e048a.wav"/>
+        <FILE id="O9MG9a" name="H30e054a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e054a.wav"/>
+        <FILE id="ddrvlo" name="H30e060a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e060a.wav"/>
+        <FILE id="X6pkuA" name="H30e066a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e066a.wav"/>
+        <FILE id="w8R1hU" name="H30e072a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e072a.wav"/>
+        <FILE id="rQSBhH" name="H30e078a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e078a.wav"/>
+        <FILE id="BmBDEB" name="H30e084a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e084a.wav"/>
+        <FILE id="WjVs9J" name="H30e090a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e090a.wav"/>
+        <FILE id="Vjb6nm" name="H30e096a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e096a.wav"/>
+        <FILE id="zURhev" name="H30e102a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e102a.wav"/>
+        <FILE id="Y7Zpd6" name="H30e108a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e108a.wav"/>
+        <FILE id="RLYONh" name="H30e114a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e114a.wav"/>
+        <FILE id="rSK2TY" name="H30e120a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e120a.wav"/>
+        <FILE id="vwXilV" name="H30e126a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e126a.wav"/>
+        <FILE id="Xr6Na1" name="H30e132a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e132a.wav"/>
+        <FILE id="p92PHO" name="H30e138a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e138a.wav"/>
+        <FILE id="C1NFY6" name="H30e144a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e144a.wav"/>
+        <FILE id="ayeixE" name="H30e150a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e150a.wav"/>
+        <FILE id="L6paip" name="H30e156a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e156a.wav"/>
+        <FILE id="LuvrV8" name="H30e162a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e162a.wav"/>
+        <FILE id="N3O9QI" name="H30e168a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e168a.wav"/>
+        <FILE id="WEW1U4" name="H30e174a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e174a.wav"/>
+        <FILE id="CslqhG" name="H30e180a.wav" compile="0" resource="1" file="Source/compact/elev30/H30e180a.wav"/>
+      </GROUP>
+      <GROUP id="{80479F6A-178E-F0E0-74A5-64A0ACF97BD5}" name="elev40">
+        <FILE id="Db27HA" name="H40e-000a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-000a.wav"/>
+        <FILE id="hZ6rvX" name="H40e-006a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-006a.wav"/>
+        <FILE id="XoJpVj" name="H40e-013a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-013a.wav"/>
+        <FILE id="gAk46T" name="H40e-019a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-019a.wav"/>
+        <FILE id="r6P6Hk" name="H40e-026a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-026a.wav"/>
+        <FILE id="TpHhVW" name="H40e-032a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-032a.wav"/>
+        <FILE id="i1iB79" name="H40e-039a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-039a.wav"/>
+        <FILE id="b3CIO0" name="H40e-045a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-045a.wav"/>
+        <FILE id="qXbt9q" name="H40e-051a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-051a.wav"/>
+        <FILE id="vEGqKC" name="H40e-058a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-058a.wav"/>
+        <FILE id="ATGbxM" name="H40e-064a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-064a.wav"/>
+        <FILE id="FRgWTO" name="H40e-071a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-071a.wav"/>
+        <FILE id="FTGetg" name="H40e-077a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-077a.wav"/>
+        <FILE id="XkNYOv" name="H40e-084a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-084a.wav"/>
+        <FILE id="sxbYzh" name="H40e-090a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-090a.wav"/>
+        <FILE id="sskUKa" name="H40e-096a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-096a.wav"/>
+        <FILE id="ZDVxTS" name="H40e-103a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-103a.wav"/>
+        <FILE id="XwF6EZ" name="H40e-109a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-109a.wav"/>
+        <FILE id="sR5KTW" name="H40e-116a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-116a.wav"/>
+        <FILE id="ICzvs9" name="H40e-122a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-122a.wav"/>
+        <FILE id="d2CYX9" name="H40e-129a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-129a.wav"/>
+        <FILE id="Zb7d9O" name="H40e-135a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-135a.wav"/>
+        <FILE id="fWxm4c" name="H40e-141a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-141a.wav"/>
+        <FILE id="Uy7XzH" name="H40e-148a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-148a.wav"/>
+        <FILE id="IBBGWq" name="H40e-154a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-154a.wav"/>
+        <FILE id="XWACBU" name="H40e-161a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-161a.wav"/>
+        <FILE id="TFVmKT" name="H40e-167a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-167a.wav"/>
+        <FILE id="sfomyE" name="H40e-174a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-174a.wav"/>
+        <FILE id="Fdny4C" name="H40e-180a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e-180a.wav"/>
+        <FILE id="N1JY9B" name="H40e000a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e000a.wav"/>
+        <FILE id="AuOtiI" name="H40e006a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e006a.wav"/>
+        <FILE id="LWm6bp" name="H40e013a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e013a.wav"/>
+        <FILE id="VuDtFH" name="H40e019a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e019a.wav"/>
+        <FILE id="OSyRxv" name="H40e026a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e026a.wav"/>
+        <FILE id="AWUheT" name="H40e032a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e032a.wav"/>
+        <FILE id="g7rS3e" name="H40e039a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e039a.wav"/>
+        <FILE id="kn1M8F" name="H40e045a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e045a.wav"/>
+        <FILE id="oK4fRe" name="H40e051a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e051a.wav"/>
+        <FILE id="MxyU1E" name="H40e058a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e058a.wav"/>
+        <FILE id="qeeJ36" name="H40e064a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e064a.wav"/>
+        <FILE id="I0H7GA" name="H40e071a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e071a.wav"/>
+        <FILE id="MUXV3p" name="H40e077a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e077a.wav"/>
+        <FILE id="vYYFWr" name="H40e084a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e084a.wav"/>
+        <FILE id="y44ZCf" name="H40e090a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e090a.wav"/>
+        <FILE id="EYuq6s" name="H40e096a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e096a.wav"/>
+        <FILE id="rrzrww" name="H40e103a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e103a.wav"/>
+        <FILE id="oQPpgh" name="H40e109a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e109a.wav"/>
+        <FILE id="pcCpwG" name="H40e116a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e116a.wav"/>
+        <FILE id="nxhUt6" name="H40e122a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e122a.wav"/>
+        <FILE id="cDQid9" name="H40e129a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e129a.wav"/>
+        <FILE id="DaH2ML" name="H40e135a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e135a.wav"/>
+        <FILE id="Iekezs" name="H40e141a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e141a.wav"/>
+        <FILE id="tpqx3s" name="H40e148a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e148a.wav"/>
+        <FILE id="wZQhp1" name="H40e154a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e154a.wav"/>
+        <FILE id="ECxveG" name="H40e161a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e161a.wav"/>
+        <FILE id="bleu06" name="H40e167a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e167a.wav"/>
+        <FILE id="Is3QRr" name="H40e174a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e174a.wav"/>
+        <FILE id="HcInC9" name="H40e180a.wav" compile="0" resource="1" file="Source/compact/elev40/H40e180a.wav"/>
+      </GROUP>
+      <GROUP id="{464F1B72-31D2-D827-42ED-82A629F351B8}" name="elev50">
+        <FILE id="CITMSc" name="H50e-000a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-000a.wav"/>
+        <FILE id="pkSE4Q" name="H50e-008a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-008a.wav"/>
+        <FILE id="jcwWUM" name="H50e-016a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-016a.wav"/>
+        <FILE id="oX426H" name="H50e-024a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-024a.wav"/>
+        <FILE id="wFRQUr" name="H50e-032a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-032a.wav"/>
+        <FILE id="JykEbu" name="H50e-040a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-040a.wav"/>
+        <FILE id="g0TGSz" name="H50e-048a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-048a.wav"/>
+        <FILE id="Gtip5i" name="H50e-056a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-056a.wav"/>
+        <FILE id="QoiUUM" name="H50e-064a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-064a.wav"/>
+        <FILE id="IViNxw" name="H50e-072a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-072a.wav"/>
+        <FILE id="jIQsoU" name="H50e-080a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-080a.wav"/>
+        <FILE id="I9DvWq" name="H50e-088a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-088a.wav"/>
+        <FILE id="WMah0q" name="H50e-096a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-096a.wav"/>
+        <FILE id="yuztWW" name="H50e-104a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-104a.wav"/>
+        <FILE id="EsFM3T" name="H50e-112a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-112a.wav"/>
+        <FILE id="b5ADbl" name="H50e-120a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-120a.wav"/>
+        <FILE id="vhdBO5" name="H50e-128a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-128a.wav"/>
+        <FILE id="Z8dGQX" name="H50e-136a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-136a.wav"/>
+        <FILE id="sscGFL" name="H50e-144a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-144a.wav"/>
+        <FILE id="UmVrIn" name="H50e-152a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-152a.wav"/>
+        <FILE id="SXEtl3" name="H50e-160a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-160a.wav"/>
+        <FILE id="kPbgvI" name="H50e-168a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-168a.wav"/>
+        <FILE id="NUDWtH" name="H50e-176a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e-176a.wav"/>
+        <FILE id="IbmC3S" name="H50e000a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e000a.wav"/>
+        <FILE id="ahgpBJ" name="H50e008a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e008a.wav"/>
+        <FILE id="IMoCVm" name="H50e016a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e016a.wav"/>
+        <FILE id="OQg4OE" name="H50e024a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e024a.wav"/>
+        <FILE id="xOo9lB" name="H50e032a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e032a.wav"/>
+        <FILE id="Xb9fv6" name="H50e040a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e040a.wav"/>
+        <FILE id="dw7JaZ" name="H50e048a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e048a.wav"/>
+        <FILE id="u7ZgWL" name="H50e056a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e056a.wav"/>
+        <FILE id="UWxJSj" name="H50e064a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e064a.wav"/>
+        <FILE id="i70uao" name="H50e072a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e072a.wav"/>
+        <FILE id="B3WQWV" name="H50e080a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e080a.wav"/>
+        <FILE id="CYPHhN" name="H50e088a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e088a.wav"/>
+        <FILE id="xeJ3WA" name="H50e096a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e096a.wav"/>
+        <FILE id="vTW5Ea" name="H50e104a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e104a.wav"/>
+        <FILE id="qgzv3o" name="H50e112a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e112a.wav"/>
+        <FILE id="wt5ZqW" name="H50e120a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e120a.wav"/>
+        <FILE id="pTTeGz" name="H50e128a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e128a.wav"/>
+        <FILE id="C8UyKf" name="H50e136a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e136a.wav"/>
+        <FILE id="lllPEa" name="H50e144a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e144a.wav"/>
+        <FILE id="DwJmRJ" name="H50e152a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e152a.wav"/>
+        <FILE id="x5kZ6D" name="H50e160a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e160a.wav"/>
+        <FILE id="Ri8MHE" name="H50e168a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e168a.wav"/>
+        <FILE id="BwrHfI" name="H50e176a.wav" compile="0" resource="1" file="Source/compact/elev50/H50e176a.wav"/>
+      </GROUP>
+      <GROUP id="{4123FDA4-50B5-4996-086B-2E2711D07BAC}" name="elev60">
+        <FILE id="prxzuY" name="H60e-000a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-000a.wav"/>
+        <FILE id="Z5jxAJ" name="H60e-010a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-010a.wav"/>
+        <FILE id="thgBjq" name="H60e-020a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-020a.wav"/>
+        <FILE id="nDXbfR" name="H60e-030a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-030a.wav"/>
+        <FILE id="iIJ94m" name="H60e-040a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-040a.wav"/>
+        <FILE id="EsUSJX" name="H60e-050a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-050a.wav"/>
+        <FILE id="pLb79q" name="H60e-060a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-060a.wav"/>
+        <FILE id="i8TDMn" name="H60e-070a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-070a.wav"/>
+        <FILE id="nJO8kg" name="H60e-080a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-080a.wav"/>
+        <FILE id="GUydXG" name="H60e-090a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-090a.wav"/>
+        <FILE id="pmjRJc" name="H60e-100a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-100a.wav"/>
+        <FILE id="GzSaUZ" name="H60e-110a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-110a.wav"/>
+        <FILE id="S2k4Yy" name="H60e-120a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-120a.wav"/>
+        <FILE id="CJ4Dwn" name="H60e-130a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-130a.wav"/>
+        <FILE id="F3JSO1" name="H60e-140a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-140a.wav"/>
+        <FILE id="DuwAoL" name="H60e-150a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-150a.wav"/>
+        <FILE id="bgbjLu" name="H60e-160a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-160a.wav"/>
+        <FILE id="msQuyh" name="H60e-170a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-170a.wav"/>
+        <FILE id="OdwQj6" name="H60e-180a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e-180a.wav"/>
+        <FILE id="voNHrr" name="H60e000a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e000a.wav"/>
+        <FILE id="a5vUqF" name="H60e010a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e010a.wav"/>
+        <FILE id="l7wpwc" name="H60e020a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e020a.wav"/>
+        <FILE id="wyzYPR" name="H60e030a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e030a.wav"/>
+        <FILE id="ADSc8D" name="H60e040a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e040a.wav"/>
+        <FILE id="xbpaJZ" name="H60e050a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e050a.wav"/>
+        <FILE id="lPEQGd" name="H60e060a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e060a.wav"/>
+        <FILE id="nl0pMU" name="H60e070a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e070a.wav"/>
+        <FILE id="SlVkvq" name="H60e080a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e080a.wav"/>
+        <FILE id="gYZZDT" name="H60e090a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e090a.wav"/>
+        <FILE id="TWptyD" name="H60e100a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e100a.wav"/>
+        <FILE id="XMc9o2" name="H60e110a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e110a.wav"/>
+        <FILE id="cEIxzA" name="H60e120a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e120a.wav"/>
+        <FILE id="JD6Z7Z" name="H60e130a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e130a.wav"/>
+        <FILE id="hEDv5v" name="H60e140a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e140a.wav"/>
+        <FILE id="j00WKL" name="H60e150a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e150a.wav"/>
+        <FILE id="DPjtTC" name="H60e160a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e160a.wav"/>
+        <FILE id="ao41xv" name="H60e170a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e170a.wav"/>
+        <FILE id="zDM3nj" name="H60e180a.wav" compile="0" resource="1" file="Source/compact/elev60/H60e180a.wav"/>
+      </GROUP>
+      <GROUP id="{5E25E3AD-1428-4D7B-7908-6EA7BF73BDCE}" name="elev70">
+        <FILE id="dhUcXN" name="H70e-000a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-000a.wav"/>
+        <FILE id="LJH8KH" name="H70e-015a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-015a.wav"/>
+        <FILE id="bOTSkN" name="H70e-030a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-030a.wav"/>
+        <FILE id="kJm6zy" name="H70e-045a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-045a.wav"/>
+        <FILE id="BlwMTK" name="H70e-060a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-060a.wav"/>
+        <FILE id="ni40s6" name="H70e-075a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-075a.wav"/>
+        <FILE id="r0TzIJ" name="H70e-090a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-090a.wav"/>
+        <FILE id="JX83MB" name="H70e-105a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-105a.wav"/>
+        <FILE id="e79CIH" name="H70e-120a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-120a.wav"/>
+        <FILE id="PoN101" name="H70e-135a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-135a.wav"/>
+        <FILE id="EoNNiB" name="H70e-150a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-150a.wav"/>
+        <FILE id="Epe9cn" name="H70e-165a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-165a.wav"/>
+        <FILE id="vF2gRW" name="H70e-180a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e-180a.wav"/>
+        <FILE id="BChiyt" name="H70e000a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e000a.wav"/>
+        <FILE id="LM8FWq" name="H70e015a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e015a.wav"/>
+        <FILE id="Y0uYuy" name="H70e030a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e030a.wav"/>
+        <FILE id="lIrvdB" name="H70e045a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e045a.wav"/>
+        <FILE id="C2JXNI" name="H70e060a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e060a.wav"/>
+        <FILE id="zmH7Ne" name="H70e075a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e075a.wav"/>
+        <FILE id="VlCFFu" name="H70e090a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e090a.wav"/>
+        <FILE id="IofnPZ" name="H70e105a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e105a.wav"/>
+        <FILE id="RdlRUR" name="H70e120a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e120a.wav"/>
+        <FILE id="Zsf1tI" name="H70e135a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e135a.wav"/>
+        <FILE id="WCYxlq" name="H70e150a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e150a.wav"/>
+        <FILE id="dSCh5p" name="H70e165a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e165a.wav"/>
+        <FILE id="VJ1imN" name="H70e180a.wav" compile="0" resource="1" file="Source/compact/elev70/H70e180a.wav"/>
+      </GROUP>
+      <GROUP id="{5A72C6F4-E34B-62D0-B82F-62BCF4525601}" name="elev80">
+        <FILE id="lN31ID" name="H80e-000a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-000a.wav"/>
+        <FILE id="ipqZBp" name="H80e-030a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-030a.wav"/>
+        <FILE id="iix0mm" name="H80e-060a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-060a.wav"/>
+        <FILE id="XTpmkm" name="H80e-090a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-090a.wav"/>
+        <FILE id="zwsNMO" name="H80e-120a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-120a.wav"/>
+        <FILE id="IPJRtB" name="H80e-150a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-150a.wav"/>
+        <FILE id="GIb5on" name="H80e-180a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e-180a.wav"/>
+        <FILE id="OUPYeM" name="H80e000a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e000a.wav"/>
+        <FILE id="JQXwSn" name="H80e030a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e030a.wav"/>
+        <FILE id="NkADQ6" name="H80e060a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e060a.wav"/>
+        <FILE id="jezOYC" name="H80e090a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e090a.wav"/>
+        <FILE id="Nd9JX6" name="H80e120a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e120a.wav"/>
+        <FILE id="AJRtdX" name="H80e150a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e150a.wav"/>
+        <FILE id="vHKpuE" name="H80e180a.wav" compile="0" resource="1" file="Source/compact/elev80/H80e180a.wav"/>
+      </GROUP>
+      <GROUP id="{279A20A1-5B82-6E8F-0A65-D2CCC1DB1FFB}" name="elev90">
+        <FILE id="Ms8QvB" name="H90e-000a.wav" compile="0" resource="1" file="Source/compact/elev90/H90e-000a.wav"/>
+        <FILE id="vaO6WU" name="H90e000a.wav" compile="0" resource="1" file="Source/compact/elev90/H90e000a.wav"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ELEV8"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ELEV8"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
